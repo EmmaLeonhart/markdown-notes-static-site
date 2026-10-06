@@ -15,3 +15,8 @@ Where "done" lives: dated entries, newest last.
   emphasis, strikethrough, inline and fenced code, nested ordered/unordered
   lists (tight and loose), block quotes, links, images, autolinks, rules,
   hard breaks; wiki-links go to a callback. 29 unit tests pass.
+- Notes and links (`notes_to_site/notes.py`): recursive `*.md` discovery
+  (hidden and `_` folders and the output folder skipped), titles from a
+  first-line `# heading`, unique slugs (`index`/`style` reserved), wiki-links
+  outside code, case-insensitive resolution by name or by path, `#section`
+  ignored, backlinks without self-links or repeats. 41 tests pass.
