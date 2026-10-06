@@ -31,3 +31,6 @@ Where "done" lives: dated entries, newest last.
   notes folder doubles as the end-to-end test fixture (every internal href
   is checked to exist). 51 tests pass; a real build of `example/` checked by
   reading the generated HTML.
+- CI (`.github/workflows/ci.yml`): Linux/Windows/macOS x Python 3.9/3.13;
+  installs the package, runs the unit tests, builds `example/` with the
+  installed `notes-to-site` command.
