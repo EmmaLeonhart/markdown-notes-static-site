@@ -25,3 +25,9 @@ Where "done" lives: dated entries, newest last.
   reported), a light/dark stylesheet; the output folder may sit inside the
   notes folder and is never read back as notes; nothing is deleted. 47 tests
   pass.
+- CLI (`notes_to_site/cli.py`, `python -m notes_to_site`): `notes-to-site
+  SOURCE [-o OUTPUT] [--title T] [-q]`, warnings for missing links and
+  duplicate names, exit 2 when the notes folder is missing. An `example/`
+  notes folder doubles as the end-to-end test fixture (every internal href
+  is checked to exist). 51 tests pass; a real build of `example/` checked by
+  reading the generated HTML.
