@@ -36,3 +36,5 @@ Where "done" lives: dated entries, newest last.
   installed `notes-to-site` command.
 - README: install, usage, link syntax, titles and slugs, what is skipped,
   the Markdown subset and its limits, how to run the tests.
+- 19:18 PST: CI green on all six jobs. First version of the brief complete;
+  queue empty. `todo.md` now lists only beyond-the-brief possibilities.

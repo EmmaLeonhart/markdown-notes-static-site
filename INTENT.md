@@ -54,6 +54,18 @@ a static HTML site:
 High on the goal (the brief is explicit). Medium on the details listed under
 Assumptions.
 
+## Status
+
+The brief's first version is built: package `notes_to_site`, CLI
+`notes-to-site`, `example/` notes, 51 unit tests, CI green on
+Linux/Windows/macOS with Python 3.9 and 3.13, README written. The assumptions
+above are what was built; the README documents them.
+
+Not built, because the brief doesn't ask for them and nobody has: front matter,
+copying images, tags, heading anchors for `[[note#section]]`, deleting stale
+pages. They are listed in `todo.md` as possibilities only.
+
 ## Timeline
 
 - Work mode started: 2026-10-05 19:11 PST (intake verdict).
+- First version done, CI green: 2026-10-05 19:18 PST.

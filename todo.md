@@ -3,8 +3,12 @@
 Abstract destinations. Pulled into `queue.md` as concrete steps when work
 starts on them.
 
-- A working first version of the tool the brief describes (`data_lake/brief.md`):
-  notes folder in, static site with index and backlinks out, tested.
-- Possible later: front matter (title, tags), copying images and other
-  non-Markdown files into the site, a tag index, watch mode. Only if the user
-  asks or the brief grows; none of these are in the brief.
+The brief (`data_lake/brief.md`) is covered by the first version (see
+`devlog.md`). Everything below goes beyond the brief: possibilities to take
+up only if the user asks or the brief grows.
+
+- Front matter (title, tags) and a tag index.
+- Copying images and other non-Markdown files into the site.
+- Heading ids so `[[note#section]]` lands on the section.
+- An option to clear stale pages from the output folder.
+- Watch mode (rebuild on change).
