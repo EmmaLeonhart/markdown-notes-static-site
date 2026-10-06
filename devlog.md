@@ -11,3 +11,7 @@ Where "done" lives: dated entries, newest last.
   `queue.md`.
 - Package skeleton: `pyproject.toml` (setuptools, no dependencies, Python
   3.9+, `notes-to-site` console script) and the `notes_to_site` package.
+- Markdown converter (`notes_to_site/markdown.py`): headings, paragraphs,
+  emphasis, strikethrough, inline and fenced code, nested ordered/unordered
+  lists (tight and loose), block quotes, links, images, autolinks, rules,
+  hard breaks; wiki-links go to a callback. 29 unit tests pass.
