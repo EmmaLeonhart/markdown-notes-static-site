@@ -34,3 +34,5 @@ Where "done" lives: dated entries, newest last.
 - CI (`.github/workflows/ci.yml`): Linux/Windows/macOS x Python 3.9/3.13;
   installs the package, runs the unit tests, builds `example/` with the
   installed `notes-to-site` command.
+- README: install, usage, link syntax, titles and slugs, what is skipped,
+  the Markdown subset and its limits, how to run the tests.
