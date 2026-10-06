@@ -20,3 +20,8 @@ Where "done" lives: dated entries, newest last.
   first-line `# heading`, unique slugs (`index`/`style` reserved), wiki-links
   outside code, case-insensitive resolution by name or by path, `#section`
   ignored, backlinks without self-links or repeats. 41 tests pass.
+- Site builder (`notes_to_site/site.py`): a page per note with a "Pages that
+  link here" section, an index sorted by title, missing links marked (and
+  reported), a light/dark stylesheet; the output folder may sit inside the
+  notes folder and is never read back as notes; nothing is deleted. 47 tests
+  pass.
