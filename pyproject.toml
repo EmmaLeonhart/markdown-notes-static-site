@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notes-to-site"
+version = "0.1.0"
+description = "Turn a folder of Markdown notes into a static HTML site with an index and backlinks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Emma Leonhart"}]
+dependencies = []
+
+[project.scripts]
+notes-to-site = "notes_to_site.cli:main"
+
+[tool.setuptools]
+packages = ["notes_to_site"]

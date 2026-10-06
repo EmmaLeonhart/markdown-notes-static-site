@@ -9,3 +9,5 @@ Where "done" lives: dated entries, newest last.
   `EmmaLeonhart/markdown-notes-static-site` and pushed. Update check: the
   vendored skills already match cleanvibe v2.0.4. Planned the build into
   `queue.md`.
+- Package skeleton: `pyproject.toml` (setuptools, no dependencies, Python
+  3.9+, `notes-to-site` console script) and the `notes_to_site` package.

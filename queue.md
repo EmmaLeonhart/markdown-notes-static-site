@@ -3,8 +3,6 @@
 Concrete, not-yet-done steps. Finished items are deleted from here and logged
 in `devlog.md` in the same commit.
 
-1. Package skeleton: `notes_to_site/` package, `pyproject.toml` with a
-   `notes-to-site` console script, Python 3.9+, no dependencies.
 2. Markdown to HTML converter (`notes_to_site/markdown.py`): headings,
    paragraphs, emphasis, inline code, fenced code, lists, block quotes, links,
    horizontal rules, with HTML escaping. Unit tests.
